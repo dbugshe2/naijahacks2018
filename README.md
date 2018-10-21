@@ -21,29 +21,31 @@
     + HTML CSS
     + Javascript
     + PouchDB and CouchDB
+		- [pouchDB Intro](https://pouchdb.com/learn.html)
+		- [pouchDB docs](https://pouchdb.com/guides/)
 
 
 # For Devs
 list of roles to be filled
 
 - front end
-	- UI design
-	- Content
-	- User Flow
+	- __UI design__ - basically create argon based markup for the pages
+	- __Content__ - add content to the markup based on the info needed on the page
+	- __User Flow__ - help describe step by step how the user would acheive a goal
 - back end
-	- data storage and retrieval
-	- display logic
-	- general backend
+	- __data storage and retrieval__ - working with getting data from vaarious forms storing them, and getting data from pouch db
+	- __display logic__
+	- __general backend__
 
 ## Roles
 *enter your github username and profile link below*
 
-- Ejiga Peter - (YOUR GITHUB USERNAME)[www.github.com/YOUR_GITHUB_PROFILE_LINK_HERE]
-	+ please add your roles pick from the available list above
-- Maroof Shittu - (YOUR GITHUB USERNAME)[www.github.com/YOUR_GITHUB_PROFILE_LINK_HERE]
-	+ please add your roles pick from the available list above
-- Halliru Ibrahim Abubakar - (YOUR GITHUB USERNAME)[www.github.com/YOUR_GITHUB_PROFILE_LINK_HERE]
-	+ please add your roles pick from the available list above
+- Ejiga Peter - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)
+	+ please add your roles here...... you can pick from the available list above **(eg. front end: content, user flow)**
+- Maroof Shittu - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)]
+	+ please add your roles here...... you can pick from the available list above **(eg. front end: content, user flow)**
+- Halliru Ibrahim Abubakar - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)
+	+ please add your roles here...... you can pick from the available list above **(eg. front end: content, user flow)**
 
 ## Tasks
 
@@ -59,10 +61,18 @@ list of roles to be filled
 	+ [ ] make a donation
 	+ [ ] upvote/downvote project
 	+ [ ] view project details
-- [] accounts page - (2 types **individual**, and **organisation**)
-- []
+- [ ] accounts page - (2 types **individual**, and **organisation**)
+- [ ]
 
 
 # important Notes
 
 - there will be no actual user auth (sing in, sign up), just some dummy account hard coded into the pages (to save time)
+
+-
+
+# Contributing
+
+1. clone the repo, if you're stuck read the docs
+2. make frequest commits (after every major change)
+3. if you're a team member you can just push your code directly.
