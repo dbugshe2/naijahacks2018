@@ -17,7 +17,7 @@
 - __Cloud Hosting__:
 	+ Digital ocean
 
-- __Preferred Stack__:
+- __Preferred Stack and usefull links__:
     + HTML CSS
     + Javascript
     + PouchDB and CouchDB
