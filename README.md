@@ -1,7 +1,7 @@
 # Team Beast Mode Submission for Naijahacks2018
 
 # {{wip}}
-  
+
 ## About this project
 
 
@@ -15,16 +15,20 @@
 
 	+ https://github.com/dbugshe2/naijahacks2018
 
-- __Cloud Hosting_:
+- __Cloud Hosting__:
 	+ Digital ocean
 
 - __Preferred Stack__:
     + HTML CSS
     + Javascript
-    + PouchDB and CouchDB  
-    
+    + PouchDB and CouchDB
+
 
 # For Devs
+list of roles to be filled
+
+- front end
+- back end
 
 ## Roles
 *enter your github username and profile link below*
@@ -38,3 +42,11 @@
 
 ## Tasks
 
+- [] landing page - with search
+- [] Projects
+- [] accounts - (2 types **individual**, and **organisation**)
+
+
+# important Notes
+
+there will be no actual user auth (sing in, sign up), just some dummy account hard coded into the pages (to save time)
