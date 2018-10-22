@@ -26,26 +26,27 @@
 
 
 # For Devs
-list of roles to be filled
+list of roles to be filled and how many people should take one the roles
 
 - front end
-	- __UI design__ - basically create argon based markup for the pages
-	- __Content__ - add content to the markup based on the info needed on the page
-	- __User Flow__ - help describe step by step how the user would acheive a goal
+	- [ ] __UI design__ x3 - basically create argon based markup for the pages
+	- [ ] __Content__ x2 - add content to the markup based on the info needed on the page
+	- [ ] __User Flow__ x1 - help describe step by step how the user would acheive a goal
 - back end
-	- __data storage and retrieval__ - working with getting data from vaarious forms storing them, and getting data from pouch db
-	- __display logic__
-	- __general backend__
+	- [ ] __data storage and retrieval__ x2 - working with getting data from vaarious forms storing them, and getting data from pouch db
+	- [ ] __display logic__ - writing some scripts to determine what the user see's based on where they
+	- [ ] __general backend__ - other scripts to give some backend logic to achieve some functionality
 
 ## Roles
 *enter your github username and profile link below*
 
 - Ejiga Peter - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)
-	+ please add your roles here...... you can pick from the available list above **(eg. front end: content, user flow)**
-- Maroof Shittu - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)]
-	+ please add your roles here...... you can pick from the available list above **(eg. front end: content, user flow)**
+	+ please add your roles here...... you can pick MORE THAN ONE from the list above **(eg. front end: content, user flow)**
+- Maroof Shittu - [dbugshe2](https://github.com/dbugshe2)
+	+ front end
+	+ back end
 - Halliru Ibrahim Abubakar - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)
-	+ please add your roles here...... you can pick from the available list above **(eg. front end: content, user flow)**
+	+ please add your roles here...... you can pick MORE THAN ONE from the list above **(eg. front end: content, user flow)**
 
 ## Tasks
 
