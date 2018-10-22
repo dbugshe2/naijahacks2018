@@ -1,6 +1,6 @@
 # Team Beast Mode Submission for Naijahacks2018
 
-# {{wip}}
+# {{wip}} title unknown for now
 
 ## About this project
 
@@ -21,6 +21,7 @@
     + HTML CSS
     + Javascript
     + PouchDB and CouchDB
+		- [Quick getting started - build a simple todo app with puchdb in 10 mins](https://pouchdb.com/getting-started.html)
 		- [pouchDB Intro](https://pouchdb.com/learn.html)
 		- [pouchDB docs](https://pouchdb.com/guides/)
 
@@ -49,6 +50,9 @@ list of roles to be filled and how many people should take one the roles
 	+ please add your roles here...... you can pick MORE THAN ONE from the list above **(eg. front end: content, user flow)**
 
 ## Tasks
+
+__refer to the project page for the tasks__
+
 
 - [ ] landing page - with search
 	+ [ ] welcome message
