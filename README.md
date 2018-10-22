@@ -54,27 +54,20 @@ list of roles to be filled and how many people should take one the roles
 __refer to the project page for the tasks__
 
 
-- [ ] landing page - with search
-	+ [ ] welcome message
-	+ [ ] a search bar
-	+ [ ] quick description of the site
-	+ [ ] list of features
-	+ [ ] and list of partners (jsut naiajahacks for now I guess)
-- [ ] Projects page - list of recent projects
-	+ [ ] create new project page
-	+ [ ] apply as a volunteer
-	+ [ ] make a donation
-	+ [ ] upvote/downvote project
-	+ [ ] view project details
-- [ ] accounts page - (2 types **individual**, and **organisation**)
-- [ ]
-
 
 # important Notes
 
 - there will be no actual user auth (sing in, sign up), just some dummy account hard coded into the pages (to save time)
 
--
+# To run this project
+
+1. you need to serve frokm a localhost server for argon to work
+	- in your working folder you can use
+
+```
+	$ python -m SimpleHTTPServer  # for Python 2
+	$ python -m http.server       # for Python 3
+```
 
 # Contributing
 
