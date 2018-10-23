@@ -53,5 +53,8 @@ submitbtn.addEventListener('click', function(event) {
     event.preventDefault();
     console.log("submited");
     populateProject();
+    createProject();
+    saveProjects();
+    window.location.replace("http://maroof.me/naijahacks2018/projects.html")
 
 });
