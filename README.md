@@ -46,9 +46,9 @@ list of roles to be filled and how many people should take on the roles
 - Maroof Shittu - [dbugshe2](https://github.com/dbugshe2)
     + front end
     + backend
-- Halliru Ibrahim Abubakar - [YOUR GITHUB USERNAME](https://github.com/YOUR_GITHUB_PROFILE_LINK_HERE)
-    + please add your roles here...... you can pick MORE THAN ONE from the list above **(eg. front end: content, user flow)**
-
+- Halliru Ibrahim Abubakar - [AzureAceX](https://github.com/AzureAceX)
+    + front end
+    
 ## Tasks
 
 __refer to the project page for the tasks__
