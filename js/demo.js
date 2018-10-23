@@ -44,7 +44,7 @@ function saveProjects(){
 }
 
 function validate(elList) {
-    elList.forEach(function ('element') {
+    elList.forEach(function (element) {
         if (element.value == null || element.value == ''){
             element.className += " " + "is-invalid";
         }
