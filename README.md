@@ -5,10 +5,10 @@
 ## About this project
 
 - __Problem__:
-> communities in Nigeria need infrastructure, and the ones that have it need maintenance or upgrades.
+>school in nigeria need infrastructure and programs (curricular and extra curricular), and the ones that have it need maintenance, or upgrades.
 
 - __Proposed solution__:
-> a platform where anyone can create community development projects, get supporters and raise funds through crowdfunding within members of the same communities, and other communities and Organizations, as well as a place for volunteers to find community development projects to work on.
+> a platform where anyone can create and crowd fund programs in their school, programs their school doesn't have but is important to their success (science lab, sports programs, coding classes, robotics program) and find volunteers.
 
 - __Project Github repository__
 
