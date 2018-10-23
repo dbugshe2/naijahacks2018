@@ -1,7 +1,11 @@
 //  just going to cram everything in here
 
 // projects sample model
-
+if(window.localStorage.hasItem('projectCount')) {
+    var projectCount = window.localStorage.getItem('projectCount');
+} else {
+    var projectCount = 0;
+}
 var project = {
     id: 1,
     name: "",
@@ -31,7 +35,7 @@ submitbtn = document.getElementById("createsubmit");
 
 
 function populateProject(){
-    
+
 }
 
 function createProject(){
