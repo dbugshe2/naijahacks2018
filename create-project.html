@@ -125,16 +125,17 @@
 		<section class="container">
 			<div class="row">
 				<div class="col">
+					<small>* means required</small>
 					<h1> &nbsp; Kickstart Start A New Project</h1>
 					<!-- <img class="img-responsive align-self-center" width="300px" src="img/brand/logo_transparent.png"> -->
 					<form name="ProjReg">
 						<div class="form-group">
-							<label for="projname">Project Name</label>
-							<input id="projname" class="form-control form-control-alternative" type="text" name="ProjectName" placeholder="">
+							<label for="projname">Project Name *</label>
+							<input required id="projname" class="form-control form-control-alternative" type="text" name="ProjectName" placeholder="">
 						</div>
 						<div class="form-group">
-							<label for="projtype">Project Type</label>
-							<select id="projtype" class="form-control form-control-alternative">
+							<label for="projtype">Project Type *</label>
+							<select required id="projtype" class="form-control form-control-alternative">
 								<option default><i>--Select From List--</i></option>
 								<option value="sports">Sports</option>
 								<option value="performing">Performing Arts</option>
@@ -150,41 +151,41 @@
 							<textarea id="projdesc" class="form-control form-control-alternative" name="Description" rows="5" style="resize:none;"></textarea>
 						</div>
 						<div class="form-group">
-							<label for="projcollab">Collaborator Email</label>
-							<input class="form-control form-control-alternative" type="text" name="Collaborator">
+							<label for="projcollab">Collaborator Email *</label>
+							<input required class="form-control form-control-alternative" type="text" name="Collaborator">
 						</div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="projcity">City</label>
-									<input id="projcity" class="form-control form-control-alternative" type="text" name="City">
+									<label for="projcity">City *</label>
+									<input required id="projcity" class="form-control form-control-alternative" type="text" name="City">
 
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="projstate">State</label>
-									<input id="projstate" class="form-control form-control-alternative" type="text" name="Collaborator">
+									<label for="projstate">State *</label>
+									<input required id="projstate" class="form-control form-control-alternative" type="text" name="Collaborator">
 								</div>
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="usertype">User Category</label>
-							<select id="usertype" class="form-control form-control-alternative">
-								<option><i>--Select From List--</i></option>
+							<label for="usertype">User Category *</label>
+							<select required id="usertype" class="form-control form-control-alternative">
+								<option default><i>--Select From List--</i></option>
 								<option value="Student">Student</option>
 								<option value="Educator">Educator</option>
 								<option value="Other">Other</option>
 							</select>
 						</div>
 						<div class="form-group">
-							<label for="cost">Estimated Cost (Naira)</label>
-							<input id="cost" placeholder="300000" class="form-control form-control-alternative" type="number" name="EstimatedCost">
+							<label for="cost">Estimated Cost (Naira) *</label>
+							<input required id="cost" placeholder="300000" class="form-control form-control-alternative" type="number" name="EstimatedCost">
 						</div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<label for="start">Project Lifetime</label>
+									<label for="start">Project to Start from</label>
 									<input id="start" class="form-control form-control-alternative" type="date" name="ProjectLifetimeStart" >
 								</div>
 							</div>
@@ -209,8 +210,8 @@
 	<script src=" vendor/bootstrap/bootstrap.min.js"></script>
 	<script src=" vendor/headroom/headroom.min.js"></script>
 	<!-- Argon JS -->
-	<script src=" js/argon.js?v=1.0.1"></script>
-	<script src="//cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js"></script>
+	<script src=" js/argon.min.js?v=1.0.1"></script>
+	<script src="https://cdn.jsdelivr.net/npm/pouchdb@7.0.0/dist/pouchdb.min.js"></script>
 	<script src="js\main.js"></script>
 	<script src="js\demo.js"></script>
 </body>
