@@ -1,6 +1,6 @@
 # Team Beast Mode Submission for Naijahacks2018
 
-# {{wip}} title unknown for now
+# OutReach
 
 ## About this project
 
@@ -48,7 +48,7 @@ list of roles to be filled and how many people should take on the roles
     + backend
 - Halliru Ibrahim Abubakar - [AzureAceX](https://github.com/AzureAceX)
     + front end
-    
+
 ## Tasks
 
 __refer to the project page for the tasks__
