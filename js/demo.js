@@ -29,10 +29,9 @@ start = document.getElementById("start"),
 end = document.getElementById("end"),
 submitbtn = document.getElementById("createsubmit");
 
-var createcontent = [name, projtype, projdesc, projcollab, projstate, usertype, cost, start, end];
 
 function populateProject(){
-
+    
 }
 
 function createProject(){
@@ -43,16 +42,12 @@ function saveProjects(){
     return;
 }
 
-function validate(elList) {
-    elList.forEach(function (element) {
-        if (element.value == null || element.value == ''){
-            element.className += " " + "is-invalid";
-        }
-    });
-}
+
+
 
 submitbtn.addEventListener('click', function(event) {
+    event.preventDefault();
     console.log("submited");
-    validate(createcontent);
+    populateProject();
 
-})
+});
