@@ -123,80 +123,37 @@
             <section class="container">
                 <div class="row">
                     <div class="col">
-                        <small>* means required</small>
                         <h1> get Involved in {{Project-name}} at {{ school-name }}</h1>
                         <!-- <img class="img-responsive align-self-center" width="300px" src="img/brand/logo_transparent.png"> -->
-                        <form name="ProjReg">
-                            <div class="form-group">
-                                <label for="projname">Project Name *</label>
-                                <input required id="projname" class="form-control form-control-alternative" type="text" name="ProjectName" placeholder="">
-                            </div>
-                            <div class="form-group">
-                                <label for="projtype">Project Type *</label>
-                                <select required id="projtype" class="form-control form-control-alternative">
-                                    <option default><i>--Select From List--</i></option>
-                                    <option value="sports">Sports</option>
-                                    <option value="performing">Performing Arts</option>
-                                    <option value="creative">Creative Arts</option>
-                                    <option value="academic">Academic Enrichment</option>
-                                    <option value="finliteracy">Financial Literacy</option>
-                                    <option value="extra">Extracurricular Activites</option>
-                                    <option value="Other">Others</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="projdesc">Short Description</label>
-                                <textarea id="projdesc" class="form-control form-control-alternative" name="Description" rows="5" style="resize:none;"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="projcollab">Collaborator Email *</label>
-                                <input required class="form-control form-control-alternative" type="email" name="Collaborator">
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="projcity">City *</label>
-                                        <input required id="projcity" class="form-control form-control-alternative" type="text" name="City">
+                        <form name="VolunteerReg">
+                                <div class="form-group">
+                                  <label for="name">FullName *</label>
+                                  <input required id="name" class="form-control form-control-alternative" type="text" name="name" placeholder="Enter Your Full Name">
+                                </div>
+                                <div class="form-group">
+                                  <label for="projname">Project Name *</label>
+                                  <input required id="projname" class="form-control form-control-alternative" type="text" name="ProjectName" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                      <label for="Address">Address *</label>
+                                      <input required id="projcity" class="form-control form-control-alternative" type="text" name="Address">
+                                    </div>
+                                <div class="form-group">
+                                  <label for="cost">Phone Number *</label>
+                                  <input required id="PhoneNumber" placeholder="+234" class="form-control form-control-alternative" type="number" name="PhoneNumber">
+                                </div>
+                                <div class="form-group">
+                                  <label for="Email">Email Address *</label>
+                                  <input required class="form-control form-control-alternative" type="text" name="Email">
+                                </div>
+                                <div class="form-group">
+                                  <label for="projdesc">Introduction To Project Team</label>
+                                  <textarea id="projdesc" class="form-control form-control-alternative" name="Description" rows="5" style="resize:none;"></textarea>
+                                </div>
 
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="projstate">State *</label>
-                                        <input required id="projstate" class="form-control form-control-alternative" type="text" name="Collaborator">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="usertype">User Category *</label>
-                                <select required id="usertype" class="form-control form-control-alternative">
-                                    <option default><i>--Select From List--</i></option>
-                                    <option value="Student">Student</option>
-                                    <option value="Educator">Educator</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="cost">Estimated Cost (Naira) *</label>
-                                <input required id="cost" placeholder="300000" class="form-control form-control-alternative" type="number" name="EstimatedCost">
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="start">Project to Start from</label>
-                                        <input id="start" class="form-control form-control-alternative" type="date" name="ProjectLifetimeStart" >
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="end">To</label>
-                                        <input id="end" class="form-control form-control-alternative" type="date" name="ProjectLifetimeEnd">
-                                    </div>
-                                </div>
-                            </div>
-                            <button id="createsubmit" type="button" class="btn btn-success btn-lg btn-block ">Submit</button>
+                                <button id="volunteersubmit" type="button" class="btn btn-volunteer btn-lg btn-block btn-success"><i class="fas fa-hand-paper mr-2"></i>Volunteer</button>
 
-                        </form>
+                              </form>
                     </div>
                 </div>
             </section>
